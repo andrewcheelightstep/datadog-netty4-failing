@@ -42,4 +42,6 @@ dependencies {
     ['filters-helpers', 'play-logback'].each { playModule ->
         play "com.typesafe.play:${playModule}_$scalaVersion:$playVersion"
     }
+    compile 'com.lightstep.tracer:lightstep-tracer-jre:0.14.5'
+    compile 'com.lightstep.tracer:tracer-grpc:0.14.5'
 }

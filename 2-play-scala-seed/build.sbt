@@ -21,6 +21,9 @@ libraryDependencies ++= Seq(
   "io.opentracing" % "opentracing-util" % "0.31.0",
   "com.datadoghq" % "dd-trace-ot" % datadogAgentVersion,
   "com.datadoghq" % "dd-trace-api" % datadogAgentVersion,
+  "com.lightstep.tracer" % "lightstep-tracer-jre" % "0.14.5",
+  "com.lightstep.tracer" % "tracer-grpc" % "0.15.6",
+  "io.grpc" % "grpc-okhttp" % "1.15.0",
   ws
 )
 
